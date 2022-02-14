@@ -1,0 +1,18 @@
+.navColor:link {
+  color: black;
+}
+.navColor:visited {
+  color: black;
+}
+.navColor:hover {
+  color: #353676;
+}
+.navColor:active {
+  color: #353676;
+} 
+
+.home{
+    background-color: #353676;
+    color: aliceblue;
+    border-radius: 20px;
+}

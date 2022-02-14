@@ -1,0 +1,67 @@
+
+<app-nav></app-nav>
+
+<div class="row mb-5 mt-2 p-3 ">
+    <div class="col-md-6 col-sm-12 offset-md-3 border">
+        <form class="mt-4 mb-4">
+            <h2 class="mb-4">Booking Details</h2>
+            <div class="row">
+                <div class="form-floating mb-2 col-md-6 col-sm-12">
+                    <input type="text" class="form-control" id="product1" placeholder="Product 1">
+                    <label class="p-3 text-secondary">First Name</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6 col-sm-12">
+                    <input type="text" class="form-control" id="product2" placeholder="Product 2">
+                    <label class="p-3 text-secondary">Last Name</label>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class=" col-md-4 col-sm-5">Choose Type</div>
+                <div class="form-check col-md-4 col-sm-3">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">Permanent</label>
+                </div>
+                <div class="form-check col-md-3 col-sm-3">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">Temporary</label>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-1 col-sm-6">Start</div>
+                <div class="col-md-5 col-sm-6"><input placeholder="Select date" type="date" id="example" class="form-control"></div>
+                <div class="col-md-1 col-sm-6">End</div>
+                <div class="col-md-5 col-sm-6"><input placeholder="Select date" type="date" id="example" class="form-control"></div>
+            </div>
+            <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="product3" placeholder="Product 3">
+                <label class="text-secondary">Street Address</label>
+            </div>
+            <div class="row">
+                <div class="form-floating mb-2 col-md-4">
+                    <input type="text" class="form-control" id="product4" placeholder="Product 4">
+                    <label class="p-3 text-secondary">City</label>
+                </div>
+                <div class="form-floating mb-2 col-md-4">
+                    <input type="text" class="form-control" id="product5" placeholder="Product 5">
+                    <label class="p-3 text-secondary">State</label>
+                </div>
+                <div class="form-floating mb-2 col-md-4">
+                    <input type="text" class="form-control" id="product5" placeholder="Product 6">
+                    <label class="p-3 text-secondary">Zip Code</label>
+                </div>
+            </div>
+            <div class="form-check mt-2">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Agree terms and condition!
+                </label>
+            </div>
+
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary">
+                    <a class="text-light text-decoration-none" routerLink="/">submit</a>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
