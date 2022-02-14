@@ -2,7 +2,12 @@
 
 This is single page web application
 
-![](Image/lg.png)
+Home Page
+![](Image/lg1.png)
+Login Page
+![](Image/lg2.png)
+Register Page
+![](Image/lg3.png)
 
 
 
